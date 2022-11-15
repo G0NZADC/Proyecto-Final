@@ -1,0 +1,95 @@
+
+  <div class="pag-conte">
+      <div class="productos-container">
+        <h3>Multi GYM </h3>
+        <img src="./imag/imagen2.jpg">
+        <h2>$85000</h2>
+        <button class="boton-agregar" onclick="agregar('Montura-1', 80000)">Agregar</button>
+
+      </div>
+      <div class="productos-container">
+        <h2>Cinta Electrica</h2>
+        <img src="./imag/imagen3.jpg">
+        <h3>$270000</h3>
+        <button class="boton-agregar" onclick="agregar('Montura-2', 70000)">Agregar</button>
+     </div>
+
+      <div class="productos-container">
+        <h3>Eliptico</h3>
+        <img src="./imag/imagen4.jpg">
+        <h2>$160000</h2>
+        <button class="boton-agregar" onclick="agregar('Montura-3', 60000)" >Agregar</button>
+      </div>
+
+      <div class="productos-container">
+        <h3>Mini Trampolin</h3>
+        <img src="./imag/imagen5.jpg">
+        <h2>$7500</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-4', 105000)">Agregar</button>
+      </div>
+
+      <div class="productos-container">
+        <h3>Bolsa de Peso 5Kg</h3>
+        <img src="./imag/imagen6.jpg">
+        <h2>$6500</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-5', 50000)">Agregar</button>
+      </div>
+
+      <div class="productos-container">
+        <h3>Mancuerna Ajustable 25Kg</h3>
+        <img src="./imag/imagen1.jpg">
+        <h2>$25000</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-6', 75000)">Agregar</button>
+      </div>
+
+      <div class="productos-container">
+        <h3>Mancuerna Ajustable 7,5Kg</h3>
+        <img src="./imag/imagen7.jpg">
+        <h2>$5000</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-6', 75000)">Agregar</button>
+      </div>
+      
+      <div class="productos-container">
+        <h3>Set Abdominales con soga</h3>
+        <img src="./imag/imagen8.jpg">
+        <h2>$4800</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-6', 75000)">Agregar</button>
+      </div>
+      
+      <div class="productos-container">
+        <h3>Banco de Abdominales</h3>
+        <img src="./imag/imagen9.jpg">
+        <h2>$59000</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-6', 75000)">Agregar</button>
+      </div>
+      
+      <div class="productos-container">
+        <h3>Pelota con peso 8Kg</h3>
+        <img src="./imag/imagen10.jpg">
+        <h2>$10000</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-6', 75000)">Agregar</button>
+      </div>
+
+      <div class="productos-container">
+        <h3>Disco para barra 11,3Kg</h3>
+        <img src="./imag/imagen11.jpg">
+        <h2>$75000</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-6', 75000)">Agregar</button>
+      </div>
+
+      <div class="productos-container">
+        <h3>Colchoneta protectora de piso</h3>
+        <img src="./imag/imagen12.jpg">
+        <h2>$7000</h2>
+        <button class="boton-agregar"onclick="agregar('Montura-6', 75000)">Agregar</button>
+      </div>
+
+  </div>
+
+
+
+
+
+
+  
+</body>

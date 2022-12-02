@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     
-    // Varia el carrito y vuelve a dibujarlo
+    // Vaciar el carrito y vuelve a dibujarlo
     
     function vaciarCarrito() {
         

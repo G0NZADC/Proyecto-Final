@@ -14,18 +14,37 @@
   margin-bottom: 20px;
 }
 
-
-.pag-nav{
-  background-color: rgb(19, 35, 40);
-  border: 1px solid black;
+.navbar-toggler span {
+  display: block;
+  background-color: black;
+  height: 3px;
+  width: 25px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   position: relative;
+  left: 0;
+  opacity: 1;
+  transition: all 0.35s ease-out;
+  transform-origin: center;
 }
-
-.pag-nav h1{
-  color: rgb(116, 191, 211);
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  margin-left: 15px;
-
+.navbar-toggler span .navbar-toggler span:nth-child(1) {
+  margin-top: 0.3em;
+}
+.navbar-toggler span .navbar-toggler:not(.collapsed) span:nth-child(1) {
+  transform: translate(15%, -33%) rotate(45deg);
+}
+.navbar-toggler span .navbar-toggler:not(.collapsed) span:nth-child(2) {
+  opacity: 0;
+}
+.navbar-toggler span .navbar-toggler:not(.collapsed) span:nth-child(3) {
+  transform: translate(15%, 33%) rotate(-45deg);
+}
+.navbar-toggler span .navbar-toggler span:nth-child(1) {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+.navbar-toggler span .navbar-toggler span:nth-child(2) {
+  opacity: 1;
+}
+.navbar-toggler span .navbar-toggler span:nth-child(3) {
+  transform: translate(0%, 0%) rotate(0deg);
 }

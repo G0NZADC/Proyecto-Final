@@ -5,26 +5,58 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clase 12 entrega 3</title>
+  <title>Proyecto Final del Campo Gonzalo </title>
   <link rel="stylesheet" href="./css/estilo.css">
   <script src="./js/main.js"></script>
+  <script src="./js/form.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/fancybox.min.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+
+   
+  <link rel="stylesheet" href="./css/estilo.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+
 </head>
 
 
 
 <body>
   <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="NavBar">
+      <div class="container-fluid">
+       <a href="#" class="logo">
+           <img src="./imag/logo.png" width="100" height="100" alt="Bienestar GYM" class="img-fluid">
+       </a>
 
-    <div class="container-fluid">
-      <div class="pag-nav"> 
-        <img src="./imag/logo.png" width="200" height="200"  class="img-fluid">
+        <div class="titulo">
+          <h1>Bienestar GYM</h1>
+          <p><h4>Venta de sumos para gimnacios</h4></p>
+        </div>
 
-          <h1> Bienestar GYM </h1>
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="icon-bar top-bar"></span>
+             <span class="icon-bar middle-bar"></span>
+             <span class="icon-bar bottom-bar"></span>
+       </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                 <a class="nav-link" href="" target="_blank">WhastApp</a>
+                </li>   
+                
+              </ul>
        
-      </div>
-    </div>
+          </div>
+
+     </div>
+</nav>
 
   </header>
 
@@ -46,7 +78,36 @@
   </div>
 
 
+    <div>
+      <label for="username">Nombre y Apellido</label>
+      <i class="fas fa-user"></i>
+      <input type="text" name="username" id="username" placeholder="Joy Shaheb" />
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+      <div class="error"></div>
+    </div>
 
+    <div>
+      <label for="email">Email</label>
+      <i class="far fa-envelope"></i>
+      <input type="email" name="email" id="email" placeholder="abc@gmail.com" />
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+      <div class="error"></div>
+    </div>
+
+    <div>
+      <label for="password">Contraseña</label>
+      <i class="fas fa-lock"></i>
+      <input type="password" name="password" id="password" placeholder="Password here" />
+      <i class="fas fa-exclamation-circle failure-icon"></i>
+      <i class="far fa-check-circle success-icon"></i>
+      <div class="error"></div>
+    </div>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+  </div>
 
 
 
